@@ -13,3 +13,5 @@ Testing CI workflow 1/17/24
 ![GitHub Workflow Status (branch)](https://img.shields.io/github/actions/workflow/status/Jermon1/sem/A%20workflow%20for%20my%20Hello%20World%20App?branch=develop)
 
 ![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/Jermon1/sem/AworkflowformyHelloWorld/develop?style=flat-square)
+
+![Github Workflow Status (branch)](https://img.shields.io/github/actions/workflow/status/Jermon1/sem/main.yml?branch=develop)
