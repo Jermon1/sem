@@ -10,6 +10,6 @@ Testing CI workflow 1/17/24
 
 [![Releases](https://img.shields.io/github/release/Jermon1/sem/all.svg?style=flat-square)](https://github.com/Jermon1/sem/releases)
 
-![GitHub Workflow Status (branch)]https://img.shields.io/github/actions/workflow/status/Jermon1/sem/A%20workflow%20for%20my%20Hello%20World%20App?branch=develop
+![GitHub Workflow Status (branch)](https://img.shields.io/github/actions/workflow/status/Jermon1/sem/A%20workflow%20for%20my%20Hello%20World%20App?branch=develop)
 
 ![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/Jermon1/sem/AworkflowformyHelloWorld/develop?style=flat-square)
