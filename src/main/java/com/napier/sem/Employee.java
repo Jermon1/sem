@@ -1,6 +1,8 @@
 package com.napier.sem;
 
 
+import java.util.Date;
+
 /**
  * Represents an employee
  */
@@ -40,7 +42,6 @@ public class Employee
      * Employee's manager
      */
     public String manager;
-
 
 }
 
