@@ -10,9 +10,9 @@ public class App {
             Statement stmt = con.createStatement();
             // Create string for SQL statement
             String strSelect =
-                    "SELECT emp_no, first_name, last_name "
-                            + "FROM employees "
-                            + "WHERE emp_no = " + ID;
+                    "SELECT employees.emp_no, employees.first_name, employees.last_name, titles.title "
+                            + "FROM employees, titles "
+                            + "WHERE employees.emp_no = " + ID;
 
             // Execute SQL statement
             ResultSet rset = stmt.executeQuery(strSelect);
@@ -20,9 +20,14 @@ public class App {
             // Check one is returned
             if (rset.next()) {
                 Employee emp = new Employee();
-                emp.emp_no = rset.getInt("emp_no");
-                emp.first_name = rset.getString("first_name");
-                emp.last_name = rset.getString("last_name");
+                emp.emp_no = rset.getInt("employees.emp_no");
+                emp.first_name = rset.getString("employees.first_name");
+                emp.last_name = rset.getString("employees.last_name");
+                emp.title = rset.getString("titles.title");
+
+
+
+
                 return emp;
 
             } else
